@@ -1,8 +1,23 @@
-#Calculadora de IMC - POO
-Projeto desenvolvido como parte de sistematização de Programação Orientada a Objetos.
+# Calculadora de IMC - POO
 
-## Funcionalidades
-- Cálculo de IMC com recursividade.
-- Cadastro de Pessoas e Atletas.
-- Histórico de processamentos.
-- Tratamento de exceções personalizadas.
+Projeto desenvolvido como sistematização da disciplina de Programação Orientada a Objetos.
+
+## Requisitos atendidos
+
+- **Abstração** — Classe abstrata `PessoaBase`
+- **Encapsulamento** — Atributos privados com validação nos setters
+- **Herança** — `Pessoa extends PessoaBase` e `Atleta extends Pessoa`
+- **Polimorfismo** — `classificarIMC()` sobrescrito em `Atleta`
+- **Interface** — `CalculadoraIMC` implementada por `Pessoa`
+- **Recursividade** — `CalculadoraRecursiva.potencia()` para cálculo da altura²
+- **Exceção customizada** — `EntradaInvalidaException`
+- **Coleções** — `ArrayList` no `Historico`
+- **Menu interativo** — Scanner com loop `do-while` e tratamento de erros
+
+## Como executar
+
+Pré-requisito: Java 11+ e Maven instalados.
+
+```bash
+mvn compile exec:java -Dexec.mainClass="br.edu.sistematizacao.Main"
+```
