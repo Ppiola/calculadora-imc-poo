@@ -1,7 +1,7 @@
-# Projeto: Calculadora de IMC (POO)
-**Aluno:** Pedro de Moura Magalhães Piola
-**Matrícula/RA:** 72600908
-**Curso/Turma:** ADS / Turma B - 0426
+- # Projeto: Calculadora de IMC (POO)
+- **Aluno:** Pedro de Moura Magalhães Piola
+- **Matrícula/RA:** 72600908
+- **Curso/Turma:** ADS / Turma B - 0426
 
 Projeto desenvolvido como sistematização da disciplina de Programação Orientada a Objetos.
 
