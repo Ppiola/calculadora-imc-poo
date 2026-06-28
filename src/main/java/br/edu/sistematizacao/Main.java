@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Instancia o nosso sistema (que tem a composicao do historico)
+        // Instancia o sistema (que tem a composicao do historico)
         SistemaIMC sistema = new SistemaIMC();
         int opcao = 0;
 
